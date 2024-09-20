@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./output.css" rel="stylesheet">
+    <title>Instagram Login</title>
+</head>
+
+<body class="bg-gray-50">
+    <div class="min-h-screen grid grid-cols-1 md:grid-cols-2 gap-6">
+
+        <!-- IMAGEM PRINCIPAL -->
+        <section class="hidden md:flex justify-end items-center">
+            <img class="max-w-md" src="https://i.ibb.co/NyVPXyk/insta-img.png" alt="Imagem de celular com Instagram">
+        </section>
+
+        <!-- FORMULÁRIO -->
+        <section class="flex flex-col justify-center items-center space-y-4">
+            <form class="w-80 flex flex-col items-center bg-white border border-gray-300 rounded-lg p-6 space-y-4">
+                <img class="w-52" src="https://i.ibb.co/RCqjpL1/insta-logo.png" alt="Logo do Instagram">
+
+                <input type="text"
+                    class="bg-gray-50 border border-gray-300 rounded-sm w-full h-10 px-3 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
+                    placeholder="Telefone, nome de usuário ou email" aria-label="Telefone, nome de usuário ou email">
+
+                <input type="password"
+                    class="bg-gray-50 border border-gray-300 rounded-sm w-full h-10 px-3 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
+                    placeholder="Senha" aria-label="Senha">
+
+                <button type="submit"
+                    class="bg-blue-500 hover:bg-blue-400 text-white w-full h-10 rounded-md font-semibold transition-colors">Entrar</button>
+
+                <a href="#" class="text-blue-800 font-semibold">Entrar com o Facebook</a>
+                <a href="#" class="text-blue-800 text-xs">Esqueceu sua senha?</a>
+            </form>
+
+            <div class="w-80 text-center py-4 bg-white border border-gray-300 rounded-lg">
+                <p>Não tem uma conta? <a href="#" class="text-blue-500 font-semibold">Cadastre-se</a></p>
+            </div>
+
+            <p class="text-gray-500">Obtenha o Aplicativo</p>
+
+            <div class="flex gap-2 mt-4">
+                <img class="h-10 cursor-pointer" src="https://i.ibb.co/x7N4GwZ/google.png" alt="Baixar no Google Play">
+                <img class="h-10 cursor-pointer" src="https://i.ibb.co/tcny7YV/apple.png" alt="Baixar na App Store">
+            </div>
+        </section>
+
+        <!-- RODAPÉ -->
+        <footer class="col-span-2 py-6">
+            <ul class="flex flex-wrap justify-center gap-4 text-gray-500 text-sm">
+                <li><a href="#">Meta</a></li>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Carreiras</a></li>
+                <li><a href="#">Ajuda</a></li>
+                <li><a href="#">API</a></li>
+                <li><a href="#">Privacidade</a></li>
+                <li><a href="#">Termos</a></li>
+                <li><a href="#">Localizações</a></li>
+                <li><a href="#">Instagram Lite</a></li>
+                <li><a href="#">Threads</a></li>
+                <li><a href="#">Carregamento de contatos e não usuários</a></li>
+                <li><a href="#">Meta Verified</a></li>
+            </ul>
+            <ul class="flex justify-center gap-4 mt-6 text-gray-500 text-sm">
+                <li>Português (Brasil)</li>
+                <li>© 2024 Instagram from Meta</li>
+            </ul>
+        </footer>
+
+    </div>
+</body>
+
+</html>
